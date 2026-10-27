@@ -13,3 +13,8 @@ Prévia estática de uma experiência comercial para lojistas: apresentação da
 
 - Foto: Anton Kotlovskii, [scooter elétrica na Unsplash](https://unsplash.com/photos/black-electric-scooter-on-paved-walkway--va_zZuO70Y). Uso sob [licença Unsplash](https://unsplash.com/license).
 - Direção estrutural de catálogo: VÉLO, adaptada para uma jornada B2B de consulta por região.
+
+## Entregáveis
+
+- [Protótipo publicado](https://oluisvi.github.io/canal-revenda-mobilidade-conceito/)
+- [Arte do conceito](docs/arte-proposta-inline.jpeg) · [versão de apresentação](https://oluisvi.github.io/canal-revenda-mobilidade-conceito/arte.html)
