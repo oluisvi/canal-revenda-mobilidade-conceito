@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b20">
+  <meta name="description" content="Prévia conceitual de um canal comercial para lojistas de mobilidade elétrica: linha, disponibilidade e atendimento por região.">
+  <title>Canal do lojista — mobilidade elétrica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="announcement"><span>ESTUDO CONCEITUAL</span><i aria-hidden="true">◆</i> CANAL COMERCIAL PARA LOJISTAS</div>
+  <header class="header wrap">
+    <a class="wordmark" href="#topo" aria-label="Canal de revenda, início"><span>ROTA</span><b> / B2B</b></a>
+    <nav aria-label="Navegação principal"><a href="#experiencia">A proposta</a><a href="#consulta">Consulta por região</a></nav>
+    <a class="header-cta" href="#consulta">Ver conceito <span aria-hidden="true">↘</span></a>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" id="topo">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> UMA IDEIA PARA O CANAL DE REVENDA</p>
+        <h1>Estoque muda.<br><em>Informação acompanha.</em></h1>
+        <p class="lede">Uma apresentação comercial pensada para o lojista conhecer a linha, entender o que consultar e chegar à equipe com a região e o interesse já claros.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#experiencia">Explorar a proposta <span aria-hidden="true">↘</span></a><a class="text-link" href="#consulta">Simular uma consulta <span aria-hidden="true">→</span></a></div>
+        <div class="hero-foot"><span>IDEIA 01 / MOBILIDADE ELÉTRICA</span><span>LINHA · STATUS · REGIÃO</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="images/scooter-eletrica-referencia.webp" alt="Scooter elétrica preta fotografada em ambiente urbano; imagem real de referência, não vinculada ao estoque do contato">
+        <div class="image-tag"><span>IMAGEM DE REFERÊNCIA</span><b>SCOOTER ELÉTRICA</b></div>
+        <div class="visual-index">01 <span>—</span> 03</div>
+        <div class="visual-stamp" aria-hidden="true"><span>MOBILIDADE</span><b>EM<br>ROTA</b><i>↗</i></div>
+      </div>
+    </section>
+    <div class="ticker" aria-label="Resumo da proposta"><div>LINHA COMERCIAL <b>✳</b> DISPONIBILIDADE CONSULTÁVEL <b>✳</b> ATENDIMENTO POR REGIÃO <b>✳</b> MENOS DÚVIDA, MAIS CONTEXTO <b>✳</b></div></div>
+
+    <section class="section wrap" id="experiencia">
+      <div class="section-top"><p class="eyebrow">01 / A EXPERIÊNCIA</p><p class="section-note">Uma página que ajuda a conversa comercial a começar no ponto certo.</p></div>
+      <div class="section-title"><h2>O lojista vê.<br><span>A equipe confirma.</span></h2><p>Quando a procura e a disponibilidade variam por região, a apresentação pode separar a linha, mostrar o status informado pela equipe e encaminhar cada interesse com contexto.</p></div>
+      <div class="steps">
+        <article class="step"><span class="step-no">01</span><div class="step-mark" aria-hidden="true">↗</div><h3>Conhece a linha</h3><p>Fotos reais, informações essenciais e modelos organizados para consulta comercial.</p><small>PRODUTOS E DADOS OFICIAIS</small></article>
+        <article class="step"><span class="step-no">02</span><div class="step-mark" aria-hidden="true">◷</div><h3>Entende o momento</h3><p>O que está disponível e o que tem previsão de reposição aparecem em estados separados.</p><small>STATUS INFORMADO PELA EQUIPE</small></article>
+        <article class="step"><span class="step-no">03</span><div class="step-mark" aria-hidden="true">⌖</div><h3>Consulta por região</h3><p>A conversa chega com localidade e interesse do lojista, pronta para o atendimento comercial.</p><small>CONTATO HUMANO CONTINUA NO CENTRO</small></article>
+      </div>
+    </section>
+
+    <section class="availability">
+      <div class="wrap availability-grid">
+        <div><p class="eyebrow">02 / DISPONIBILIDADE SEM CONFUSÃO</p><h2>O status aparece.<br><span>A decisão continua humana.</span></h2><p class="availability-copy">A equipe pode marcar os modelos por situação e atualizar a informação quando a operação mudar. Nesta prévia, os estados são apenas demonstrativos; não há estoque conectado nem promessa de reposição automática.</p></div>
+        <div class="status-board" aria-label="Exemplos de estados de disponibilidade">
+          <div class="board-head"><span>PAINEL DE CONSULTA / EXEMPLO</span><span class="live-dot">● DEMONSTRAÇÃO</span></div>
+          <button class="status-row selected" type="button" data-status="agora" aria-pressed="true"><span class="status-icon">01</span><span class="status-copy"><b>Disponível para consulta</b><small>A equipe confirma região, versão e condição.</small></span><span class="status-arrow">↗</span></button>
+          <button class="status-row" type="button" data-status="reposicao" aria-pressed="false"><span class="status-icon">02</span><span class="status-copy"><b>Próxima reposição</b><small>Previsão e modelos informados pela equipe.</small></span><span class="status-arrow">↗</span></button>
+          <div class="status-detail" id="statusDetail" role="status" aria-live="polite">Consulte disponibilidade para a sua região. A confirmação é feita pela equipe.</div>
+          <p class="disclaimer">Estados ilustrativos. Datas, modelos, estoque e condições precisam ser confirmados pela empresa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap inquiry" id="consulta">
+      <div class="section-top"><p class="eyebrow">03 / UMA CONSULTA MAIS CLARA</p><p class="section-note">Simulação local — nenhum dado é enviado.</p></div>
+      <div class="inquiry-grid"><div><h2>Região primeiro.<br><span>Conversa mais objetiva.</span></h2><p>Uma entrada simples permite direcionar a consulta sem tirar a equipe da negociação.</p></div>
+        <form id="demoForm" class="demo-form">
+          <label for="region">Onde sua loja atende?</label>
+          <div class="input-row"><input id="region" name="region" type="text" autocomplete="address-level2" placeholder="Cidade / UF" required><button type="submit" class="button button-primary">Montar consulta <span aria-hidden="true">↗</span></button></div>
+          <label class="checkline"><input type="checkbox" id="dealer" checked> <span>Sou lojista e quero consultar a linha</span></label>
+          <p class="form-result" id="formResult" role="status" aria-live="polite">Prévia demonstrativa: informe a região para montar o texto de consulta.</p>
+          <small>Este protótipo não envia mensagens nem está conectado ao atendimento da empresa.</small>
+        </form>
+      </div>
+    </section>
+    <section class="closing"><div class="wrap closing-inner"><div><p class="eyebrow">PRÓXIMO PASSO / CONTEÚDO OFICIAL</p><h2>Uma apresentação feita<br>com a linha de vocês.</h2></div><p>Nome da operação, fotos, produtos e canal comercial entram depois da confirmação. Esta prévia demonstra a jornada; não representa uma loja ou catálogo oficial.</p></div></section>
+  </main>
+  <footer class="footer wrap"><a class="wordmark" href="#topo"><span>ROTA</span><b> / B2B</b></a><p>ESTUDO VISUAL · CANAL DE REVENDA · NÃO OFICIAL</p><a href="https://unsplash.com/photos/black-electric-scooter-on-paved-walkway--va_zZuO70Y" target="_blank" rel="noreferrer">Foto: Anton Kotlovskii / Unsplash ↗</a></footer>
+</body>
+</html>
